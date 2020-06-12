@@ -1,7 +1,7 @@
 This repository is a metadata repository for Spinnaker's Halyard to discover plugins available to install in a Spinnaker instance.
 
 ```
-hal plugins repository add praneetloke --url https://raw.githubusercontent.com/pulumi/spinnaker-plugins-repository/master/repositories.json
+hal plugins repository add pulumi --url https://raw.githubusercontent.com/pulumi/spinnaker-plugins-repository/master/repositories.json
 ```
 
 ## `repositories.json`
