@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Add release to plugin repo
         run: |
-          echo "Go run addPluginReleaseToRepo: $(go run .github/workflows/addPluginReleaseToRepo.go '${{ toJson(github.event.client_payload) }}')"
+          echo "Go run addPluginReleaseToRepo: $(go run addPluginReleaseToRepo.go '${{ toJson(github.event.client_payload) }}')"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
