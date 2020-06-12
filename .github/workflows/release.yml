@@ -1,0 +1,25 @@
+name: On Plugin Release
+
+on:
+  repository_dispatch:
+    types: onPluginRelease
+
+jobs:
+  build:
+    name: Add Release To Repo
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Add release to plugin repo
+        run: |
+          echo "Go run addPluginReleaseToRepo: $(go run .github/workflows/addPluginReleaseToRepo.go '${{ toJson(github.event.client_payload) }}')"
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add plugin release ${{ github.event.client_payload.released.id }} ${{ github.event.client_payload.released.releases[0].version }}" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
