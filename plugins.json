@@ -1,25 +1,32 @@
 [
-    {
-      "id": "Pulumi.PreConfiguredJobPlugin",
-      "description": "A Pulumi plugin that provides Pulumi pipeline stage as a pre-configured job.",
-      "provider": "https://github.com/pulumi",
-      "releases": [
-        {
-          "version": "v0.1.0",
-          "date": "2021-01-29T00:42:50.629739Z",
-          "requires": "orca>=0.0.0,deck>=0.0.0",
-          "sha512sum": "9fbd3f20985cbd03f52468af92588037662a62dab8c54437f16c86be5a4e7717aa585094db0e47ef0941008f287220109159c0ec20a38f8ff1e6a7a7a08d7ae8",
-          "state": "RELEASE",
-          "url": "https://github.com/pulumi/spinnaker-preconfigured-job-plugin/releases/download/v0.1.0/spinnaker-preconfigured-job-plugin-v0.1.0.zip"
-        },
-        {
-          "version": "0.0.1",
-          "date": "2020-06-15T21:51:59.629Z",
-          "requires": "orca>=0.0.0",
-          "sha512sum": "5ff7dec4ec570967ecc8db8cc8bd0a48e9c200432949a069cfe65e265d9fdf892e454428d976ddf3af06dd550b06f38b2b52c789095c38b417362dd838d0c4be",
-          "state": "RELEASE",
-          "url": "https://github.com/pulumi/spinnaker-preconfigured-job-plugin/releases/download/v0.0.1/spinnaker-preconfigured-job-plugin-v0.0.1.zip"
-        }
-      ]
-    }
-  ]
+  {
+    "id": "Pulumi.PreConfiguredJobPlugin",
+    "description": "A Pulumi plugin that provides Pulumi pipeline stage as a pre-configured job.",
+    "provider": "https://github.com/pulumi",
+    "releases": [
+      {
+        "version": "16e7c4f",
+        "date": "2021-01-29T19:46:18.709306Z",
+        "requires": "orca>=0.0.0,deck>=0.0.0",
+        "sha512sum": "90a29511411d7e354b6c3571cfc297308eda6d7978fb4b58b7f5e0e659adfc8ec0ae08b08c9d48a200cc5e64d1cd4cf56c4c86b7cc26e9abeb0c82fc19bca6fa",
+        "url": "https://github.com/pulumi/spinnaker-preconfigured-job-plugin/releases/download/v0.1.0/spinnaker-preconfigured-job-plugin-v0.1.0.zip"
+      },
+      {
+        "version": "v0.1.0",
+        "date": "2021-01-29T00:42:50.629739Z",
+        "requires": "orca>=0.0.0,deck>=0.0.0",
+        "sha512sum": "9fbd3f20985cbd03f52468af92588037662a62dab8c54437f16c86be5a4e7717aa585094db0e47ef0941008f287220109159c0ec20a38f8ff1e6a7a7a08d7ae8",
+        "state": "RELEASE",
+        "url": "https://github.com/pulumi/spinnaker-preconfigured-job-plugin/releases/download/v0.1.0/spinnaker-preconfigured-job-plugin-v0.1.0.zip"
+      },
+      {
+        "version": "0.0.1",
+        "date": "2020-06-15T21:51:59.629Z",
+        "requires": "orca>=0.0.0",
+        "sha512sum": "5ff7dec4ec570967ecc8db8cc8bd0a48e9c200432949a069cfe65e265d9fdf892e454428d976ddf3af06dd550b06f38b2b52c789095c38b417362dd838d0c4be",
+        "state": "RELEASE",
+        "url": "https://github.com/pulumi/spinnaker-preconfigured-job-plugin/releases/download/v0.0.1/spinnaker-preconfigured-job-plugin-v0.0.1.zip"
+      }
+    ]
+  }
+]
