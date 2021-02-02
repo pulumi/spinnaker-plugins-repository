@@ -12,7 +12,7 @@
         "url": "https://github.com/pulumi/spinnaker-preconfigured-job-plugin/releases/download/v0.2.0/spinnaker-preconfigured-job-plugin-v0.2.0.zip"
       },
       {
-        "version": "v0.1.0",
+        "version": "0.1.0",
         "date": "2021-01-29T00:42:50.629739Z",
         "requires": "orca>=0.0.0,deck>=0.0.0",
         "sha512sum": "9fbd3f20985cbd03f52468af92588037662a62dab8c54437f16c86be5a4e7717aa585094db0e47ef0941008f287220109159c0ec20a38f8ff1e6a7a7a08d7ae8",
