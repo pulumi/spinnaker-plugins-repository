@@ -5,6 +5,13 @@
     "provider": "https://github.com/pulumi",
     "releases": [
       {
+        "version": "0.2.1",
+        "date": "2021-02-04T00:31:05.806448Z",
+        "requires": "orca>=0.0.0,deck>=0.0.0",
+        "sha512sum": "a88a70f30619fbe0a465ef9b671ef4fe322506e23b46ef67c28561a832830146ee478db11cab7ef9823c739543d1af3cd38d0bc46676f96b586dc1a758c17f38",
+        "url": "https://github.com/pulumi/spinnaker-preconfigured-job-plugin/releases/download/v0.2.1/spinnaker-preconfigured-job-plugin-v0.2.1.zip"
+      },
+      {
         "version": "0.2.0",
         "date": "2021-02-02T00:13:54.973742Z",
         "requires": "orca>=0.0.0,deck>=0.0.0",
